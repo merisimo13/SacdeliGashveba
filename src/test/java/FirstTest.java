@@ -14,7 +14,7 @@ public class FirstTest {
         Configuration.startMaximized = true;
 
         Selenide.open("https://www.google.com/");
-        $(".gLFyf").setValue("ყველაზე ლამაზი კოშკი").sendKeys(Keys.ENTER);
+        $(".gLFyf").setValue("შუქურა").sendKeys(Keys.ENTER);
         sleep (5000);
 
 
